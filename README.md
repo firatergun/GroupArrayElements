@@ -1,15 +1,15 @@
 # GroupArrayElements
-Group elements of a given array by <code>groupBy</code>
+Group elements of a given array by <code>N</code>
 <div>
-   <h3 id="group"><a href="#group" class="fa fa-link"></a><code>_.groupArrayElements(array, [groupBy=1])</code></h3>
-   <p>Creates an array of elements divided into <code>groupBy</code> equally sized arrays. If <code>array</code> can't be split evenly, the final group will be the remaining elements.</p>
+   <h3 id="group"><a href="#group" class="fa fa-link"></a><code>groupArrayElements(array, [N=1])</code></h3>
+   <p>Creates an array of elements divided into <code>N</code> equally sized arrays. If <code>array</code> can't be split evenly, the final group will be the remaining elements.</p>
    <h4>Arguments</h4>
    <ol>
       <li><code>array</code> <em>(Array)</em>: The array to process.</li>
-      <li><code>[groupBy=1]</code> <em>(number)</em>: The number of groups to divide by</li>
+      <li><code>[N=1]</code> <em>(number)</em>: The number of groups to divide by</li>
    </ol>
    <h4>Returns</h4>
-   <p><em>(Array)</em>: Returns the new array of groupBy elements .</p>
+   <p><em>(Array)</em>: Returns the new array of N elements .</p>
    <h4>Example</h4>
    <div class="highlight js">
       <pre>
