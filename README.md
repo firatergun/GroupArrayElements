@@ -10,6 +10,7 @@ Group elements of a given array by <code>N</code>
    </ol>
    <h4>Returns</h4>
    <p><em>(Array)</em>: Returns the new array of N elements .</p>
+   <p><em>(undefined)</em>: For empty array, negative or N = 0 .</p>
    <h4>Example</h4>
    <div class="highlight js">
       <pre>
